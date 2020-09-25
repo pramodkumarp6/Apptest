@@ -7,4 +7,15 @@
     tools:context=".MainActivity">
 
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+       android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:textSize="40sp"
+        android:text="HELLO" />
+
+
 </RelativeLayout>
