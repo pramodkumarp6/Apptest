@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
 
 
 
@@ -18,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
                 try {
 
-                    sleep(1000);
+                    sleep(800);
 
 
                     Intent intent =new Intent(MainActivity.this,SignIn.class);
